@@ -9,7 +9,7 @@ use App\Http\Controllers\Staff\MenuItemController as StaffMenuItemController;
 
 
 Route::get('/', function () {
-    return redirect('welcome');
+    return view('welcome');
 });
 
 
