@@ -41,7 +41,7 @@
                         @else
                             <a href="{{ route('login') }}" class="px-5 py-1.5 text-sm">Log in</a>
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="px-5 py-1.5 bg-[#3d2b1f] text-white rounded-full text-sm shadow-md hover:bg-[#6f4e37] transition-all">Join Club</a>
+                                <a href="{{ route('register') }}" class="px-5 py-1.5 bg-[#3d2b1f] text-white rounded-full text-sm shadow-md hover:bg-[#6f4e37] transition-all">Register</a>
                             @endif
                         @endauth
                     </div>
