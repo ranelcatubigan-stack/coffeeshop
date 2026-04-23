@@ -11,7 +11,7 @@
 
         <div class="container">
 
-            <!-- 🛒 CREATE ORDER FORM -->
+            
             <form action="/order" method="POST">
                 @csrf
 
@@ -34,7 +34,7 @@
 
             <hr>
 
-            <!-- 📄 MY ORDERS TABLE -->
+           
             <table border="1" cellpadding="8">
                 <thead>
                     <tr>
